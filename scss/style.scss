@@ -1,0 +1,38 @@
+//colores
+$colorRosa: #F85959;
+$colorVerde: #BEE42A;
+$colorNegro: #000000fc;
+$colorGris: #707070;
+//colores
+
+#bienvenidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    background-color: red;
+        img{
+            margin-right: 4rem;
+            width: 300px;
+    }
+        h1{
+            color: $colorGris;
+            font-size: 3rem;
+            margin-left: 4rem;
+
+    }
+    .botonVerSitio{
+        margin-left: 4rem;
+
+
+    }
+}
+
+
+
+
+
+
