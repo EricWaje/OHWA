@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Quicksand', sans-serif; }
+
+/* -------------------BIENVENIDOS--------------- */
 #bienvenidos {
   display: flex;
   flex-direction: row;
@@ -5,14 +12,83 @@
   align-content: center;
   align-items: center;
   width: auto;
-  height: 100vh;
-  background-color: red; }
+  height: 100vh; }
   #bienvenidos img {
     margin-right: 4rem;
     width: 300px; }
-  #bienvenidos h1 {
-    color: #707070;
-    font-size: 3rem;
-    margin-left: 4rem; }
-  #bienvenidos .botonVerSitio {
-    margin-left: 4rem; }
+  #bienvenidos .container-bienvenidos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center; }
+    #bienvenidos .container-bienvenidos #slogan {
+      width: 350px;
+      height: 100px;
+      background-color: black;
+      border-radius: 5px;
+      -webkit-box-shadow: 15px 12px 0px 4px #BEE42A;
+      -moz-box-shadow: 15px 12px 0px 4px #BEE42A;
+      box-shadow: 15px 12px 0px 4px #BEE42A; }
+      #bienvenidos .container-bienvenidos #slogan h1 {
+        font-family: 'Bebas Neue', cursive;
+        padding: 8px 8px;
+        margin: 0px;
+        font-weight: 100;
+        letter-spacing: 6px;
+        color: #ffffff;
+        font-size: 2rem;
+        /* text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.253); */ }
+    #bienvenidos .container-bienvenidos a {
+      margin-top: 5rem; }
+    #bienvenidos .container-bienvenidos .botonVerSitio {
+      font-weight: 500;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      color: #F85959;
+      background-color: transparent;
+      border: 1px solid #F85959; }
+      #bienvenidos .container-bienvenidos .botonVerSitio:hover {
+        color: #ffffff;
+        background-color: #F85959;
+        -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.575);
+        -moz-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.575);
+        box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.575); }
+
+/* -------------------FIN BIENVENIDOS--------------- */
+/* -------------------PRINCIPAL--------------- */
+#principal {
+  /* background-color: blue; */ }
+  #principal a img {
+    width: 90px; }
+
+.navegacion {
+  position: sticky;
+  top: 0px;
+  z-index: 99; }
+
+.container-home p {
+  width: 450px;
+  height: 170px;
+  padding: 8px 8px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  /* background-color: red; */ }
+
+.container-cards {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .container-cards .cartas-objetivos {
+    border: none;
+    background-color: #BEE42A;
+    -webkit-box-shadow: 15px 12px 0px 4px #F85959;
+    -moz-box-shadow: 15px 12px 0px 4px #F85959;
+    box-shadow: 15px 12px 0px 4px #F85959; }
+    .container-cards .cartas-objetivos img {
+      width: 220px; }
+
+/* -------------------SERVICIOS--------------- */
+#servicios {
+  background-color: red;
+  height: 100vh; }

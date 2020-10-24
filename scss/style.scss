@@ -3,7 +3,20 @@ $colorRosa: #F85959;
 $colorVerde: #BEE42A;
 $colorNegro: #000000fc;
 $colorGris: #707070;
+$colorGrisOscuro: #494949;
+$colorBlanco: #ffffff;
 //colores
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* -------------------BIENVENIDOS--------------- */
+
 
 #bienvenidos{
     display: flex;
@@ -13,25 +26,106 @@ $colorGris: #707070;
     align-items: center;
     width: auto;
     height: 100vh;
-    background-color: red;
-        img{
-            margin-right: 4rem;
-            width: 300px;
+        
+    img{
+        margin-right: 4rem;
+        width: 300px;
     }
-        h1{
-            color: $colorGris;
-            font-size: 3rem;
-            margin-left: 4rem;
-
-    }
-    .botonVerSitio{
-        margin-left: 4rem;
-
-
+    .container-bienvenidos{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        #slogan{
+            width: 350px;
+            height: 100px;
+            background-color: black;
+            border-radius: 5px;
+            -webkit-box-shadow: 15px 12px 0px 4px $colorVerde;
+            -moz-box-shadow: 15px 12px 0px 4px $colorVerde;
+            box-shadow: 15px 12px 0px 4px $colorVerde;
+            h1{
+            font-family: 'Bebas Neue', cursive;
+            padding: 8px 8px;
+            margin: 0px;
+            font-weight: 100;
+            letter-spacing: 6px;
+            color: $colorBlanco;
+            font-size: 2rem;
+            /* text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.253); */
+            }
+        }
+            a{
+                margin-top: 5rem;
+            }
+            .botonVerSitio{
+                font-weight: 500;
+                font-size: 1.2rem;
+                border-radius: 50px;
+                color: $colorRosa;
+                background-color:transparent;
+                border: 1px solid $colorRosa;
+                &:hover{
+                    color: $colorBlanco;
+                    background-color: $colorRosa;
+                    -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.575);
+                    -moz-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.575);
+                    box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.575);
+                }
+            }
     }
 }
 
+/* -------------------FIN BIENVENIDOS--------------- */
 
+/* -------------------PRINCIPAL--------------- */
+
+#principal{
+    /* background-color: blue; */
+
+    a img{
+        width: 90px;
+    }
+}
+
+.navegacion{
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+
+.container-home p{
+    width: 450px;
+    height: 170px;
+    padding: 8px 8px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* background-color: red; */
+}
+
+.container-cards{
+    margin-top: 50px;
+    margin-bottom: 50px;
+        .cartas-objetivos{
+            border: none;
+            background-color: $colorVerde;
+            -webkit-box-shadow: 15px 12px 0px 4px $colorRosa;
+            -moz-box-shadow: 15px 12px 0px 4px $colorRosa;
+            box-shadow: 15px 12px 0px 4px $colorRosa;
+            img{
+                width: 220px;
+            }
+        }
+}
+
+/* -------------------SERVICIOS--------------- */
+
+#servicios{
+    background-color:red;
+    height: 100vh;
+}
 
 
 
