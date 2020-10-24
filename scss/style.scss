@@ -30,6 +30,9 @@ body{
     img{
         margin-right: 4rem;
         width: 300px;
+        filter: drop-shadow(20px 20px 10px rgba(68, 68, 68, 0.598));
+        cursor: pointer;
+          
     }
     .container-bienvenidos{
         display: flex;
@@ -45,6 +48,7 @@ body{
             -webkit-box-shadow: 15px 12px 0px 4px $colorVerde;
             -moz-box-shadow: 15px 12px 0px 4px $colorVerde;
             box-shadow: 15px 12px 0px 4px $colorVerde;
+            filter: drop-shadow(20px 20px 10px rgba(68, 68, 68, 0.598));
             h1{
             font-family: 'Bebas Neue', cursive;
             padding: 8px 8px;
@@ -108,6 +112,7 @@ body{
     letter-spacing: 3px;
     color: $colorVerde;
     text-shadow: 1px 3px 3px rgb(0, 0, 0);
+    filter: drop-shadow(10px 10px 10px rgba(68, 68, 68, 0.42));
 }
 
 #quienes-somos p{
@@ -129,9 +134,17 @@ body{
         .cartas-objetivos{
             border: none;
             background-color: $colorVerde;
-            -webkit-box-shadow: 15px 12px 0px 4px $colorRosa;
-            -moz-box-shadow: 15px 12px 0px 4px $colorRosa;
-            box-shadow: 15px 12px 0px 4px $colorRosa;
+            -webkit-box-shadow: 0px 0px 0px 0px $colorRosa;
+            -moz-box-shadow: 0px 0px 0px 0px $colorRosa;
+            box-shadow: 0px 0px 0px 0px $colorRosa; 
+            transition: all 0.2s ease;
+            /* filter: drop-shadow(20px 20px 10px rgba(68, 68, 68, 0.598)); */
+            &:hover{
+                -webkit-box-shadow: 15px 12px 0px 4px $colorRosa;
+                -moz-box-shadow: 15px 12px 0px 4px $colorRosa;
+                box-shadow: 15px 12px 0px 4px $colorRosa;
+                transition: all 0.2s ease;
+            }
             img{
                 width: 220px;
             }
@@ -144,6 +157,26 @@ body{
     background-color:red;
     height: 100vh;
 }
+
+
+/* -------------------BOTON WHATSAPP--------------- */
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    left:40px;
+    background-color: $colorRosa;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
 
 
 
