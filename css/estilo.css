@@ -14,7 +14,7 @@ body {
   width: auto;
   height: 100vh; }
   #bienvenidos img {
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
     width: 300px;
     filter: drop-shadow(20px 20px 10px rgba(68, 68, 68, 0.598));
     cursor: pointer; }
@@ -60,11 +60,6 @@ body {
 
 /* -------------------FIN BIENVENIDOS--------------- */
 /* -------------------PRINCIPAL--------------- */
-#principal {
-  /* background-color: blue; */ }
-  #principal a img {
-    width: 90px; }
-
 .navegacion {
   position: sticky;
   top: 0px;
