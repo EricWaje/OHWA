@@ -12,10 +12,12 @@ header {
   z-index: 100; }
 
 header nav a img {
-  width: 130px;
-  /* filter: drop-shadow(2px 3px 2px rgba(50, 39, 39, 0.858)); */ }
+  width: 130px; }
 
 /* ----------HOME PRESENTACION---------- */
+#presentacion {
+  margin-top: 4rem; }
+
 .container-presentacion {
   margin-top: 5rem; }
   .container-presentacion h1 {
