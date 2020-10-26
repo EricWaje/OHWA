@@ -13,5 +13,3 @@ window.onscroll = function(menu){
     }
 };
 menu();
-
-const botonHome = document.getElementsByClassName('boton-home');
