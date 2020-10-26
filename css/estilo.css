@@ -16,7 +16,7 @@ header nav a img {
 
 /* ----------HOME PRESENTACION---------- */
 #presentacion {
-  margin-top: 3rem; }
+  margin-top: 2rem; }
 
 .container-presentacion {
   margin-top: 5rem; }
@@ -48,13 +48,22 @@ header nav a img {
       border: 1px solid #F85959;
       transition: all 0.2s ease; }
 
-.container-presentacion-img img {
-  width: 500px; }
+.container-presentacion-img .mancha-verde {
+  width: 250px;
+  position: absolute;
+  top: 60px;
+  right: 150px; }
+
+.container-presentacion-img .cohete {
+  width: 500px;
+  position: relative; }
 
 /* -------------------MAIN PRINCIPAL--------------- */
 #principal {
   height: 300vh;
-  background-color: white; }
+  /*     background-image: url(../img/forma-1-verde.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 0%; */ }
 
 /* -------------------BOTON WHATSAPP--------------- */
 .whatsapp {
