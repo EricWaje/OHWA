@@ -14,11 +14,25 @@ header {
 header nav a img {
   width: 210px; }
 
+@media only screen and (min-width: 300px) {
+  header nav a img {
+    width: 120px; } }
+
+@media only screen and (min-width: 580px) {
+  header nav a img {
+    width: 150px; } }
+
+@media only screen and (min-width: 760px) {
+  header nav a img {
+    width: 210px; } }
+
 #navbarNav .enlace-nav {
   color: #000000fc;
   font-family: 'Bebas Neue', cursive;
   font-size: 1.5rem;
   letter-spacing: 3px; }
+  #navbarNav .enlace-nav:hover {
+    color: #BEE42A; }
 
 /* ----------HOME PRESENTACION---------- */
 #presentacion {
