@@ -1,9 +1,38 @@
+@font-face {
+  font-family: 'bebas neue';
+  src: url(../assets/fonts/BebasNeue-Bold.otf);
+  font-style: normal;
+  font-weight: 800; }
+
+@font-face {
+  font-family: 'bebas neue';
+  src: url(../assets/fonts/BebasNeue-Regular.otf);
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'bebas neue';
+  src: url(../assets/fonts/BebasNeue-Book.otf);
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'bebas neue';
+  src: url(../assets/fonts/BebasNeue-Light.otf);
+  font-style: normal;
+  font-weight: 200; }
+
+@font-face {
+  font-family: 'bebas neue';
+  src: url(../assets/fonts/BebasNeue-Thin.otf);
+  font-style: normal;
+  font-weight: 100; }
+
 html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-  /* font-family: 'Bebas Neue', cursive; */ }
+  font-family: 'Quicksand', sans-serif; }
 
 /* -------------------BARRA NAV--------------- */
 header {
@@ -14,23 +43,12 @@ header {
 header nav a img {
   width: 210px; }
 
-@media only screen and (min-width: 300px) {
-  header nav a img {
-    width: 120px; } }
-
-@media only screen and (min-width: 580px) {
-  header nav a img {
-    width: 150px; } }
-
-@media only screen and (min-width: 760px) {
-  header nav a img {
-    width: 210px; } }
-
 #navbarNav .enlace-nav {
-  color: #000000fc;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'bebas Neue';
+  font-weight: 600;
   font-size: 1.5rem;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  color: #000000fc; }
   #navbarNav .enlace-nav:hover {
     color: #BEE42A; }
 
@@ -42,14 +60,19 @@ header nav a img {
   margin-top: 5rem; }
   .container-presentacion h1 {
     margin-bottom: 1.4rem;
-    font-weight: 400;
+    font-family: 'bebas neue';
+    font-weight: 600;
+    letter-spacing: 2px;
     margin-right: 10px; }
   .container-presentacion span {
     color: #F85959;
-    font-weight: 400; }
+    font-weight: 600;
+    letter-spacing: 2px; }
   .container-presentacion h4 {
     margin-bottom: 1.4rem;
-    font-weight: 300;
+    font-family: 'bebas neue';
+    font-weight: 400;
+    font-size: 1.6rem;
     margin-right: 20px; }
   .container-presentacion .boton-home {
     margin-bottom: 1.4rem;
@@ -58,7 +81,7 @@ header nav a img {
     background-color: #ffffff;
     border: 1px solid #F85959;
     transition: all 0.2s ease;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500; }
     .container-presentacion .boton-home:hover {
       color: #ffffff;
@@ -138,3 +161,28 @@ header nav a img {
 
 .flecha {
   margin-top: 10px; }
+
+#p-1 {
+  font-family: 'bebas neue';
+  font-weight: 800;
+  font-size: 2rem; }
+
+#p-2 {
+  font-family: 'bebas neue';
+  font-weight: 600;
+  font-size: 2rem; }
+
+#p-4 {
+  font-family: 'bebas neue';
+  font-weight: 400;
+  font-size: 2rem; }
+
+#p-5 {
+  font-family: 'bebas neue';
+  font-weight: 200;
+  font-size: 2rem; }
+
+#p-6 {
+  font-family: 'bebas neue';
+  font-weight: 100;
+  font-size: 2rem; }
