@@ -123,6 +123,36 @@ header nav a img{
     line-height: 30px;
 }
 
+.container-servicios-card{
+    background-color: $colorVerde;
+    border: none;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+    transition: all 0.2s ease;
+        &:hover{
+            -webkit-box-shadow: 25px 23px 0px -6px $colorRosa;
+            -moz-box-shadow: 25px 23px 0px -6px $colorRosa;
+            box-shadow: 25px 23px 0px -6px $colorRosa;
+            transition: all 0.2s ease;
+        }
+        h3{
+            width: 200px;
+            font-family: 'bebas neue';
+            font-weight: 600;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+
+        }
+        i{
+            font-size: 3rem;
+        }
+        p{
+            font-weight: 500;
+            line-height: 25px;
+        }
+}
 
 
 

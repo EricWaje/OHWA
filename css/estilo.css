@@ -123,6 +123,31 @@ header nav a img {
   font-weight: 200;
   line-height: 30px; }
 
+.container-servicios-card {
+  background-color: #BEE42A;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s ease; }
+  .container-servicios-card:hover {
+    -webkit-box-shadow: 25px 23px 0px -6px #F85959;
+    -moz-box-shadow: 25px 23px 0px -6px #F85959;
+    box-shadow: 25px 23px 0px -6px #F85959;
+    transition: all 0.2s ease; }
+  .container-servicios-card h3 {
+    width: 200px;
+    font-family: 'bebas neue';
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 2px; }
+  .container-servicios-card i {
+    font-size: 3rem; }
+  .container-servicios-card p {
+    font-weight: 500;
+    line-height: 25px; }
+
 /* -------------------BOTON WHATSAPP Y ARROW--------------- */
 .whatsapp {
   position: fixed;
