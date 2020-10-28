@@ -124,12 +124,12 @@ header nav a img{
 }
 
 .container-servicios-card{
-    background-color: $colorVerde;
-    border: none;
+    background-color: $colorBlanco;
+    /* border: 1px solid $colorNegro; */
     border-radius: 15px;
-    -webkit-box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
     transition: all 0.2s ease;
         &:hover{
             -webkit-box-shadow: 25px 23px 0px -6px $colorRosa;
@@ -147,6 +147,7 @@ header nav a img{
         }
         i{
             font-size: 3rem;
+            color: $colorRosa;
         }
         p{
             font-weight: 500;
