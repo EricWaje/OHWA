@@ -26,10 +26,13 @@ header nav a img{
     font-family: 'bebas Neue';
     font-weight: 600;
     font-size: 1.5rem;
+    padding: 0px 15px;
     letter-spacing: 3px;
     color:$colorNegro;
+    transition: all 0.2s ease;
         &:hover{
             color: $colorVerde;
+            transition: all 0.2s ease;
         }
 }
 
@@ -97,24 +100,44 @@ header nav a img{
 }
 
 
-/* -------------------MAIN PRINCIPAL--------------- */
-
+/* -------------------QUIENES SOMOS--------------- */
 #principal{
     margin-top: 6rem;
     background-color: $colorGrisClaro;
-    min-height: 200vh;
-    img{
-        width: 120px;
-    }
+    min-height: 100vh;
+}
+/* -------------------SERVICIOS--------------- */
+
+.container-servicios h1{
+    font-family: 'bebas neue';
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    color: $colorVerde;
+     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.803);
+}
+.container-servicios h4{
+    width: 600px;
+    margin: 0 auto;
+    font-weight: 200;
+    line-height: 30px;
 }
 
-.container-items{
-    background-color:$colorGrisClaro;
+.container-dw{
+    background-color: $colorVerde;
     border-radius: 10px;
-        h5{
-            color: $colorNegro;
-            font-size: 1rem;
-        }
+    width: 200px;
+    /* box-shadow: 45px 25px 0px 0px $colorRosa; */
+    h4{
+        width: 100px;
+        font-family: 'bebas neue';
+        font-weight: 600;
+        font-size: 3rem;
+        letter-spacing:2px;
+    }
+    .dw-img{
+        font-size: 4rem;
+    }
 }
 
 

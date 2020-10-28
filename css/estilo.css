@@ -47,10 +47,13 @@ header nav a img {
   font-family: 'bebas Neue';
   font-weight: 600;
   font-size: 1.5rem;
+  padding: 0px 15px;
   letter-spacing: 3px;
-  color: #000000fc; }
+  color: #000000fc;
+  transition: all 0.2s ease; }
   #navbarNav .enlace-nav:hover {
-    color: #BEE42A; }
+    color: #BEE42A;
+    transition: all 0.2s ease; }
 
 /* ----------HOME PRESENTACION---------- */
 #presentacion {
@@ -99,20 +102,40 @@ header nav a img {
   width: 500px;
   position: relative; }
 
-/* -------------------MAIN PRINCIPAL--------------- */
+/* -------------------QUIENES SOMOS--------------- */
 #principal {
   margin-top: 6rem;
   background-color: #e4e4e453;
-  min-height: 200vh; }
-  #principal img {
-    width: 120px; }
+  min-height: 100vh; }
 
-.container-items {
-  background-color: #e4e4e453;
-  border-radius: 10px; }
-  .container-items h5 {
-    color: #000000fc;
-    font-size: 1rem; }
+/* -------------------SERVICIOS--------------- */
+.container-servicios h1 {
+  font-family: 'bebas neue';
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 3.5rem;
+  color: #BEE42A;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.803); }
+
+.container-servicios h4 {
+  width: 600px;
+  margin: 0 auto;
+  font-weight: 200;
+  line-height: 30px; }
+
+.container-dw {
+  background-color: #BEE42A;
+  border-radius: 10px;
+  width: 200px;
+  /* box-shadow: 45px 25px 0px 0px $colorRosa; */ }
+  .container-dw h4 {
+    width: 100px;
+    font-family: 'bebas neue';
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 2px; }
+  .container-dw .dw-img {
+    font-size: 4rem; }
 
 /* -------------------BOTON WHATSAPP Y ARROW--------------- */
 .whatsapp {
