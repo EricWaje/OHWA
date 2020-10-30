@@ -85,7 +85,7 @@ header nav a img {
     border: 1px solid #F85959;
     transition: all 0.2s ease;
     font-size: 1.1rem;
-    font-weight: 500; }
+    font-weight: 600; }
     .container-presentacion .boton-home:hover {
       color: #ffffff;
       background-color: #F85959;
@@ -109,23 +109,27 @@ header nav a img {
   min-height: 100vh; }
 
 /* -------------------SERVICIOS--------------- */
+#servicios {
+  margin-bottom: 10rem; }
+
 .container-servicios h1 {
   font-family: 'bebas neue';
   font-weight: 600;
   letter-spacing: 3px;
   font-size: 3.5rem;
   color: #BEE42A;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.803); }
+  text-shadow: 0px 3px 2px black; }
 
 .container-servicios h4 {
   width: 600px;
   margin: 0 auto;
-  font-weight: 200;
-  line-height: 30px; }
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 1.2rem; }
 
+/* ---------PLACAS SERVICIOS------- */
 .container-servicios-card {
-  background-color: #ffffff;
-  /* border: 1px solid $colorNegro; */
+  background-color: #BEE42A;
   border-radius: 15px;
   -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.75);
@@ -137,17 +141,72 @@ header nav a img {
     box-shadow: 25px 23px 0px -6px #F85959;
     transition: all 0.2s ease; }
   .container-servicios-card h3 {
-    width: 200px;
     font-family: 'bebas neue';
     font-weight: 600;
     font-size: 2.5rem;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 0px 3px 2px black; }
   .container-servicios-card i {
     font-size: 3rem;
     color: #F85959; }
   .container-servicios-card p {
     font-weight: 500;
     line-height: 25px; }
+  .container-servicios-card .boton-placas {
+    color: #F85959;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid #F85959;
+    border-radius: 50px;
+    transition: all 0.2s ease; }
+    .container-servicios-card .boton-placas:hover {
+      color: #ffffff;
+      background-color: #F85959;
+      border: 2px solid #ffffff;
+      transition: all 0.2s ease; }
+
+/* ---------FIN PLACAS SERVICIOS------- */
+.container-marketing {
+  margin-top: 6rem;
+  background-color: #e4e4e453;
+  border-radius: 10px; }
+  .container-marketing h3 {
+    font-family: 'bebas neue';
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #F85959;
+    text-shadow: 0px 3px 2px black; }
+  .container-marketing .mkt-img {
+    width: 400px; }
+
+.container-desarrollo {
+  margin-top: 6rem; }
+  .container-desarrollo h3 {
+    font-family: 'bebas neue';
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #F85959;
+    text-shadow: 0px 3px 2px black; }
+  .container-desarrollo .dw-img {
+    width: 600px; }
+
+.container-disenio {
+  margin-top: 6rem;
+  background-color: #e4e4e453;
+  border-radius: 10px; }
+  .container-disenio h3 {
+    font-family: 'bebas neue';
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #F85959;
+    text-shadow: 0px 3px 2px black; }
+  .container-disenio .dis-img {
+    width: 500px; }
 
 /* -------------------BOTON WHATSAPP Y ARROW--------------- */
 .whatsapp {
