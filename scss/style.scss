@@ -297,26 +297,29 @@ header nav a img{
 
 .container-footer{
     background-color: $colorGrisOscuro;
+    .container-redes{
+        height: 30px;
+        i{
+            font-size: 1.5rem;
+            color: $colorBlanco;
+            transition: all 0.2s ease;
+                &:hover{
+                    color: $colorVerde;
+                    transition: all 0.2s ease;
+                    font-size: 2rem;
+                }
+        }
+    }
     .container-datos{
         i{
-            color: white;
-            font-size: 1.2rem;
+            color: $colorBlanco;
+            font-size: 1.3rem;
         }
         p{
             color: $colorBlanco;
         }
     }
 }
-
-.redes-sociales{
-    a{
-        color: white;
-    }
-    i{
-        font-size: 1.4rem;
-    }
-}
-
 
 .container-copy{
     background-color: #353535;

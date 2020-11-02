@@ -260,17 +260,21 @@ header nav a img {
 /* ----------FOOTER---------- */
 .container-footer {
   background-color: #494949; }
+  .container-footer .container-redes {
+    height: 30px; }
+    .container-footer .container-redes i {
+      font-size: 1.5rem;
+      color: #ffffff;
+      transition: all 0.2s ease; }
+      .container-footer .container-redes i:hover {
+        color: #BEE42A;
+        transition: all 0.2s ease;
+        font-size: 2rem; }
   .container-footer .container-datos i {
-    color: white;
-    font-size: 1.2rem; }
+    color: #ffffff;
+    font-size: 1.3rem; }
   .container-footer .container-datos p {
     color: #ffffff; }
-
-.redes-sociales a {
-  color: white; }
-
-.redes-sociales i {
-  font-size: 1.4rem; }
 
 .container-copy {
   background-color: #353535;
