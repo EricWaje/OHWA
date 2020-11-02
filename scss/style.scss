@@ -67,17 +67,23 @@ header nav a img{
             margin-bottom: 1.4rem;
             border-radius: 50px;
             color: $colorRosa;
-            background-color: $colorBlanco;
+            background-color: transparent;
             border: 1px solid $colorRosa;
             transition: all 0.2s ease;
             font-size: 1.1rem;
             font-weight: 600;
+            -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+            -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+            box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
             
                 &:hover{
                     color: $colorBlanco;
                     background-color: $colorRosa;
                     border: 1px solid $colorRosa;
                     transition: all 0.2s ease;
+                    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+                    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+                    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
                 }
         }
 }
@@ -117,7 +123,7 @@ header nav a img{
     letter-spacing: 3px;
     font-size: 3.5rem;
     color: $colorVerde;
-    text-shadow: 0px 3px 2px rgb(0, 0, 0);
+    text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
 }
 .container-servicios h4{
     width: 600px;
@@ -150,7 +156,7 @@ header nav a img{
             font-size: 2.5rem;
             letter-spacing: 2px;
             color: $colorBlanco;
-            text-shadow: 0px 3px 2px rgb(0, 0, 0);
+            text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
 
         }
         i{
@@ -194,7 +200,7 @@ header nav a img{
         font-size: 2.5rem;
         letter-spacing: 2px;
         color: $colorRosa;
-        text-shadow: 0px 3px 2px rgb(0, 0, 0);
+        text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
 
     }
     .mkt-img{
@@ -211,7 +217,7 @@ header nav a img{
         font-size: 2.5rem;
         letter-spacing: 2px;
         color: $colorRosa;
-        text-shadow: 0px 3px 2px rgb(0, 0, 0);
+        text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
 
     }
     .dw-img{
@@ -229,13 +235,101 @@ header nav a img{
         font-size: 2.5rem;
         letter-spacing: 2px;
         color: $colorRosa;
-        text-shadow: 0px 3px 2px rgb(0, 0, 0);
+        text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
 
     }
     .dis-img{
         width: 500px;
     }
 }
+
+/* ---------CONTACTO------- */
+
+#contacto h1{
+    font-family: 'bebas neue';
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    color: $colorVerde;
+    text-shadow: 0px 3px 2px #525252bb;
+}
+
+.container-formulario{
+    margin: 0 auto;
+}
+
+.formulario-focus{
+    border-radius: 10px;
+}
+
+.formulario-focus:focus{
+    -webkit-box-shadow: 0px 0px 0px 1px rgb(248,89,89);
+    -moz-box-shadow: 0px 0px 0px 1px rgb(248,89,89);
+    box-shadow: 0px 0px 0px 1px rgb(248,89,89);
+    background-color:$colorGrisClaro;
+    border-color: transparent;
+}
+
+.formulario .boton{
+    border-radius: 50px;
+    color: $colorRosa;
+    background-color: $colorBlanco;
+    border: 1px solid $colorRosa;
+    transition: all 0.2s ease;
+    font-size: 1.1rem;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+    -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+    &:hover{
+        color: $colorBlanco;
+        background-color: $colorRosa;
+        border: 1px solid $colorRosa;
+        transition: all 0.2s ease;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+    }
+}
+
+
+/* ----------FOOTER---------- */
+
+.container-footer{
+    background-color: $colorGrisOscuro;
+    .container-datos{
+        i{
+            color: white;
+            font-size: 1.2rem;
+        }
+        p{
+            color: $colorBlanco;
+        }
+    }
+}
+
+.redes-sociales{
+    a{
+        color: white;
+    }
+    i{
+        font-size: 1.4rem;
+    }
+}
+
+
+.container-copy{
+    background-color: #353535;
+    color: $colorBlanco;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+
+
 
 
 
@@ -301,6 +395,7 @@ header nav a img{
         background-color: $colorBlanco;
         color: $colorRosa;
         transition: all 0.2s ease;
+        
     }
 }
 

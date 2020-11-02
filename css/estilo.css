@@ -68,7 +68,7 @@ header nav a img {
     letter-spacing: 2px;
     margin-right: 10px; }
   .container-presentacion span {
-    color: #F85959;
+    color: #f85959;
     font-weight: 600;
     letter-spacing: 2px; }
   .container-presentacion h4 {
@@ -80,17 +80,23 @@ header nav a img {
   .container-presentacion .boton-home {
     margin-bottom: 1.4rem;
     border-radius: 50px;
-    color: #F85959;
-    background-color: #ffffff;
-    border: 1px solid #F85959;
+    color: #f85959;
+    background-color: transparent;
+    border: 1px solid #f85959;
     transition: all 0.2s ease;
     font-size: 1.1rem;
-    font-weight: 600; }
+    font-weight: 600;
+    -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+    -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536); }
     .container-presentacion .boton-home:hover {
       color: #ffffff;
-      background-color: #F85959;
-      border: 1px solid #F85959;
-      transition: all 0.2s ease; }
+      background-color: #f85959;
+      border: 1px solid #f85959;
+      transition: all 0.2s ease;
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536); }
 
 .container-presentacion-img .mancha-verde {
   width: 250px;
@@ -118,7 +124,7 @@ header nav a img {
   letter-spacing: 3px;
   font-size: 3.5rem;
   color: #BEE42A;
-  text-shadow: 0px 3px 2px black; }
+  text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
 
 .container-servicios h4 {
   width: 600px;
@@ -137,9 +143,9 @@ header nav a img {
   box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.75);
   transition: all 0.2s ease; }
   .container-servicios-card:hover {
-    -webkit-box-shadow: 25px 23px 0px -6px #F85959;
-    -moz-box-shadow: 25px 23px 0px -6px #F85959;
-    box-shadow: 25px 23px 0px -6px #F85959;
+    -webkit-box-shadow: 25px 23px 0px -6px #f85959;
+    -moz-box-shadow: 25px 23px 0px -6px #f85959;
+    box-shadow: 25px 23px 0px -6px #f85959;
     transition: all 0.2s ease; }
   .container-servicios-card h3 {
     font-family: 'bebas neue';
@@ -147,24 +153,24 @@ header nav a img {
     font-size: 2.5rem;
     letter-spacing: 2px;
     color: #ffffff;
-    text-shadow: 0px 3px 2px black; }
+    text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
   .container-servicios-card i {
     font-size: 3rem;
-    color: #F85959; }
+    color: #f85959; }
   .container-servicios-card p {
     font-weight: 500;
     line-height: 25px; }
   .container-servicios-card .boton-placas {
-    color: #F85959;
+    color: #f85959;
     font-size: 1.1rem;
     font-weight: 600;
     background-color: transparent;
-    border: 2px solid #F85959;
+    border: 2px solid #f85959;
     border-radius: 50px;
     transition: all 0.2s ease; }
     .container-servicios-card .boton-placas:hover {
       color: #ffffff;
-      background-color: #F85959;
+      background-color: #f85959;
       border: 2px solid #ffffff;
       transition: all 0.2s ease; }
 
@@ -178,8 +184,8 @@ header nav a img {
     font-weight: 600;
     font-size: 2.5rem;
     letter-spacing: 2px;
-    color: #F85959;
-    text-shadow: 0px 3px 2px black; }
+    color: #f85959;
+    text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
   .container-marketing .mkt-img {
     width: 400px; }
 
@@ -190,8 +196,8 @@ header nav a img {
     font-weight: 600;
     font-size: 2.5rem;
     letter-spacing: 2px;
-    color: #F85959;
-    text-shadow: 0px 3px 2px black; }
+    color: #f85959;
+    text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
   .container-desarrollo .dw-img {
     width: 600px; }
 
@@ -204,10 +210,74 @@ header nav a img {
     font-weight: 600;
     font-size: 2.5rem;
     letter-spacing: 2px;
-    color: #F85959;
-    text-shadow: 0px 3px 2px black; }
+    color: #f85959;
+    text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
   .container-disenio .dis-img {
     width: 500px; }
+
+/* ---------CONTACTO------- */
+#contacto h1 {
+  font-family: 'bebas neue';
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 3.5rem;
+  color: #BEE42A;
+  text-shadow: 0px 3px 2px #525252bb; }
+
+.container-formulario {
+  margin: 0 auto; }
+
+.formulario-focus {
+  border-radius: 10px; }
+
+.formulario-focus:focus {
+  -webkit-box-shadow: 0px 0px 0px 1px #f85959;
+  -moz-box-shadow: 0px 0px 0px 1px #f85959;
+  box-shadow: 0px 0px 0px 1px #f85959;
+  background-color: #e4e4e453;
+  border-color: transparent; }
+
+.formulario .boton {
+  border-radius: 50px;
+  color: #f85959;
+  background-color: #ffffff;
+  border: 1px solid #f85959;
+  transition: all 0.2s ease;
+  font-size: 1.1rem;
+  font-weight: 600;
+  -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+  -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+  box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536); }
+  .formulario .boton:hover {
+    color: #ffffff;
+    background-color: #f85959;
+    border: 1px solid #f85959;
+    transition: all 0.2s ease;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536); }
+
+/* ----------FOOTER---------- */
+.container-footer {
+  background-color: #494949; }
+  .container-footer .container-datos i {
+    color: white;
+    font-size: 1.2rem; }
+  .container-footer .container-datos p {
+    color: #ffffff; }
+
+.redes-sociales a {
+  color: white; }
+
+.redes-sociales i {
+  font-size: 1.4rem; }
+
+.container-copy {
+  background-color: #353535;
+  color: #ffffff; }
+  .container-copy a {
+    color: white;
+    text-decoration: none; }
 
 /* -------------------BOTON WHATSAPP Y ARROW--------------- */
 .whatsapp {
@@ -216,7 +286,7 @@ header nav a img {
   height: 50px;
   bottom: 40px;
   right: 40px;
-  background-color: #F85959;
+  background-color: #f85959;
   color: #ffffff;
   border-radius: 50px;
   text-align: center;
@@ -228,7 +298,7 @@ header nav a img {
   box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75); }
   .whatsapp:hover {
     background-color: #ffffff;
-    color: #F85959;
+    color: #f85959;
     transition: all 0.2s ease; }
 
 .whatsapp-icon {
@@ -240,7 +310,7 @@ header nav a img {
   height: 50px;
   bottom: 120px;
   right: 40px;
-  background-color: #F85959;
+  background-color: #f85959;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
@@ -251,7 +321,7 @@ header nav a img {
   box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75); }
   .arrow:hover {
     background-color: #ffffff;
-    color: #F85959;
+    color: #f85959;
     transition: all 0.2s ease; }
 
 .flecha {
