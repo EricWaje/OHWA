@@ -1,6 +1,6 @@
 const nav = document.getElementById('barraNav');
 
-window.onscroll = function(menu){
+window.onscroll = function(){
     if (window.pageYOffset > 120) {
         nav.style.boxShadow = "0px 2px 15px -6px rgba(0,0,0,0.35)";
         nav.style.transition = "all 0.2s ease";
@@ -12,4 +12,3 @@ window.onscroll = function(menu){
         nav.style.background = "transparent";
     }
 };
-menu();

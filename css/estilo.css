@@ -55,9 +55,10 @@ header nav a img {
     color: #BEE42A;
     transition: all 0.2s ease; }
 
-/* ----------HOME PRESENTACION---------- */
+/* ----------PRESENTACION---------- */
 #presentacion {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 10rem; }
 
 .container-presentacion {
   margin-top: 5rem; }
@@ -108,11 +109,23 @@ header nav a img {
   width: 500px;
   position: relative; }
 
-/* -------------------QUIENES SOMOS--------------- */
+/* -------------------HOME--------------- */
 #principal {
   margin-top: 6rem;
-  background-color: #e4e4e453;
-  min-height: 100vh; }
+  background-color: #e4e4e453; }
+
+.container-principal {
+  position: relative; }
+  .container-principal img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 220px;
+    left: 250px; }
+  .container-principal p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 28px; }
 
 /* -------------------SERVICIOS--------------- */
 #servicios {

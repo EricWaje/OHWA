@@ -36,9 +36,10 @@ header nav a img{
         }
 }
 
-/* ----------HOME PRESENTACION---------- */
+/* ----------PRESENTACION---------- */
 #presentacion{
     margin-top: 2rem;
+    margin-bottom: 10rem;
 
 }
 
@@ -106,11 +107,28 @@ header nav a img{
 }
 
 
-/* -------------------QUIENES SOMOS--------------- */
+/* -------------------HOME--------------- */
 #principal{
     margin-top: 6rem;
     background-color: $colorGrisClaro;
-    min-height: 100vh;
+}
+
+.container-principal{
+    position: relative;
+    img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 220px;
+        left: 250px;
+
+
+    }
+    p{
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 28px;
+    }
 }
 /* -------------------SERVICIOS--------------- */
 #servicios{
