@@ -317,22 +317,22 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mt-4 container-formulario">
-          <form class="formulario">
+          <form class="formulario" action="enviar.php" method="post" >
             <div class="form-row">
               <div class="col">
-                <input type="text" class="form-control formulario-focus" placeholder="Nombre">
+                <input type="text" name="nombre" class="form-control formulario-focus" placeholder="Nombre">
               </div>
               <div class="col">
-                <input type="text" class="form-control formulario-focus" placeholder="Apellido">
+                <input type="text" name="apellido" class="form-control formulario-focus" placeholder="Apellido">
               </div>
             </div>
             <div class="form-group">
                 <label for="email"></label>
-                <input type="email" class="form-control formulario-focus" id="email" placeholder="E-mail">
+                <input type="email" name="email" class="form-control formulario-focus" id="email" placeholder="E-mail">
             </div>
             <div class="form-group">
                 <label for="comentarios"></label>
-                <textarea class="form-control formulario-focus" id="comentarios" rows="8" placeholder="Dejanos tu consulta" ></textarea>
+                <textarea class="form-control formulario-focus" name="message" id="comentarios" rows="8" placeholder="Dejanos tu consulta" ></textarea>
             </div>
             <button type="button" class="btn btn-primary btn-block boton mb-3" data-toggle="modal" data-target="#exampleModal">Enviar</button>
           </form>
