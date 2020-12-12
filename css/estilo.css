@@ -65,19 +65,20 @@ header nav a img {
   .container-presentacion h1 {
     margin-bottom: 1.4rem;
     font-family: 'bebas neue';
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 2px;
     margin-right: 10px; }
   .container-presentacion span {
     color: #f85959;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 2px; }
   .container-presentacion h4 {
     margin-bottom: 1.4rem;
     font-family: 'bebas neue';
     font-weight: 400;
     font-size: 1.6rem;
-    margin-right: 20px; }
+    margin-right: 20px;
+    color: #525252; }
   .container-presentacion .boton-home {
     margin-bottom: 1.4rem;
     border-radius: 50px;
@@ -114,30 +115,64 @@ header nav a img {
   margin-top: 6rem;
   background-color: #e4e4e453; }
 
-.container-principal {
-  position: relative; }
-  .container-principal img {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 220px;
-    left: 250px; }
-  .container-principal p {
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 28px; }
+.container-img-ppl img {
+  width: 380px;
+  height: 380px; }
+
+.container-principal .p-principal {
+  font-family: 'bebas neue';
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 28px;
+  line-height: 37px;
+  letter-spacing: 2px; }
+
+.container-principal p {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #525252; }
+
+.container-principal #md {
+  color: #000000fc; }
+
+.container-principal #pno {
+  color: #BEE42A; }
+
+.container-principal .btn-principal {
+  border-radius: 50px;
+  color: #f85959;
+  background-color: #e4e4e453;
+  border: 1px solid #f85959;
+  transition: all 0.2s ease;
+  font-size: 1.1rem;
+  font-weight: 600;
+  -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+  -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+  box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536); }
+  .container-principal .btn-principal:hover {
+    color: #ffffff;
+    background-color: #f85959;
+    border: 1px solid #f85959;
+    transition: all 0.2s ease;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536); }
 
 /* -------------------SERVICIOS--------------- */
 #servicios {
   margin-bottom: 10rem; }
 
-.container-servicios h1 {
+.container-servicios h3 {
   font-family: 'bebas neue';
   font-weight: 600;
   letter-spacing: 3px;
   font-size: 3.5rem;
   color: #BEE42A;
   text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
+
+.container-servicios p {
+  width: 600px;
+  margin: 0 auto; }
 
 .container-servicios h4 {
   width: 600px;
@@ -146,89 +181,72 @@ header nav a img {
   line-height: 30px;
   font-size: 1.2rem; }
 
-/* ---------PLACAS SERVICIOS------- */
-.container-servicios-card {
-  margin: 0 auto;
+.container-detalles {
+  border: none;
   background-color: #BEE42A;
-  border-radius: 15px;
-  -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
   transition: all 0.2s ease; }
-  .container-servicios-card:hover {
-    -webkit-box-shadow: 25px 23px 0px -6px #f85959;
-    -moz-box-shadow: 25px 23px 0px -6px #f85959;
-    box-shadow: 25px 23px 0px -6px #f85959;
+  .container-detalles:hover {
+    -webkit-box-shadow: 10px 13px 0px 0px #f85959;
+    -moz-box-shadow: 10px 13px 0px 0px #f85959;
+    box-shadow: 10px 13px 0px 0px #f85959;
     transition: all 0.2s ease; }
-  .container-servicios-card h3 {
-    font-family: 'bebas neue';
-    font-weight: 600;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
+
+.container-detalles i {
+  font-size: 2.5rem;
+  color: #f85959; }
+
+.container-detalles h2 {
+  font-family: 'bebas neue';
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
+
+.container-detalles .btn-plac {
+  color: #f85959;
+  background-color: transparent;
+  border: 1px solid #f85959;
+  border-radius: 25px;
+  transition: all 0.2s ease; }
+  .container-detalles .btn-plac:hover {
     color: #ffffff;
-    text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
-  .container-servicios-card i {
-    font-size: 3rem;
-    color: #f85959; }
-  .container-servicios-card p {
-    font-weight: 500;
-    line-height: 25px; }
-  .container-servicios-card .boton-placas {
-    color: #f85959;
-    font-size: 1.1rem;
-    font-weight: 600;
-    background-color: transparent;
-    border: 2px solid #f85959;
-    border-radius: 50px;
+    background-color: #f85959;
     transition: all 0.2s ease; }
-    .container-servicios-card .boton-placas:hover {
-      color: #ffffff;
-      background-color: #f85959;
-      border: 2px solid #ffffff;
-      transition: all 0.2s ease; }
 
-/* ---------FIN PLACAS SERVICIOS------- */
-.container-marketing {
-  margin-top: 6rem;
-  background-color: #e4e4e453;
-  border-radius: 10px; }
-  .container-marketing h3 {
+/* ---------STAFF------- */
+#staff {
+  background-color: #e4e4e453; }
+  #staff h3 {
     font-family: 'bebas neue';
     font-weight: 600;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    color: #f85959;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    color: #BEE42A;
     text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
-  .container-marketing .mkt-img {
-    width: 400px; }
 
-.container-desarrollo {
-  margin-top: 6rem; }
-  .container-desarrollo h3 {
-    font-family: 'bebas neue';
-    font-weight: 600;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    color: #f85959;
-    text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
-  .container-desarrollo .dw-img {
-    width: 600px; }
-
-.container-disenio {
-  margin-top: 6rem;
-  background-color: #e4e4e453;
-  border-radius: 10px; }
-  .container-disenio h3 {
-    font-family: 'bebas neue';
-    font-weight: 600;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    color: #f85959;
-    text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
-  .container-disenio .dis-img {
-    width: 500px; }
+.card-staff {
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  transition: all 0.2s ease;
+  -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+  -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+  box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536); }
+  .card-staff:hover {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
+    transition: all 0.2s ease; }
+  .card-staff a i {
+    font-size: 2.5rem; }
 
 /* ---------CONTACTO------- */
+#contacto {
+  /* background-color: $colorGrisClaro; */ }
+
 #contacto h1 {
   font-family: 'bebas neue';
   font-weight: 600;
@@ -253,7 +271,7 @@ header nav a img {
 .formulario .boton {
   border-radius: 50px;
   color: #f85959;
-  background-color: #ffffff;
+  background-color: transparent;
   border: 1px solid #f85959;
   transition: all 0.2s ease;
   font-size: 1.1rem;
@@ -344,27 +362,82 @@ header nav a img {
 .flecha {
   margin-top: 10px; }
 
-#p-1 {
-  font-family: 'bebas neue';
-  font-weight: 800;
-  font-size: 2rem; }
+/* ---------MEDIA QUERIES------- */
+@media only screen and (min-width: 300px) {
+  .container-servicios p {
+    width: 320px; }
+  .container-presentacion-img .mancha-verde {
+    display: block;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    right: 110px; }
+  .container-presentacion-img .cohete {
+    width: 350px;
+    position: relative; }
+  .container-img-ppl img {
+    width: 280px;
+    height: 280px; } }
 
-#p-2 {
-  font-family: 'bebas neue';
-  font-weight: 600;
-  font-size: 2rem; }
+@media only screen and (min-width: 432px) {
+  .container-servicios p {
+    width: 390px; }
+  .container-presentacion-img .mancha-verde {
+    display: block;
+    width: 170px;
+    position: absolute;
+    top: 60px;
+    right: 110px; }
+  .container-presentacion-img .cohete {
+    width: 420px;
+    position: relative; }
+  .container-img-ppl img {
+    width: 320px;
+    height: 320px; } }
 
-#p-4 {
-  font-family: 'bebas neue';
-  font-weight: 400;
-  font-size: 2rem; }
+@media only screen and (min-width: 600px) {
+  .container-servicios p {
+    width: 500px; }
+  .container-presentacion-img .mancha-verde {
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    right: 150px; }
+  .container-presentacion-img .cohete {
+    width: 480px;
+    position: relative; }
+  .container-img-ppl img {
+    width: 370px;
+    height: 370px; } }
 
-#p-5 {
-  font-family: 'bebas neue';
-  font-weight: 200;
-  font-size: 2rem; }
+@media only screen and (min-width: 767px) {
+  .container-servicios p {
+    width: 600px; }
+  .container-presentacion-img .mancha-verde {
+    display: block;
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    right: 300px; }
+  .container-presentacion-img .cohete {
+    width: 500px;
+    position: relative; }
+  .container-img-ppl img {
+    width: 400px;
+    height: 400px; } }
 
-#p-6 {
-  font-family: 'bebas neue';
-  font-weight: 100;
-  font-size: 2rem; }
+@media only screen and (min-width: 992px) {
+  .container-servicios p {
+    width: 600px; }
+  .container-presentacion-img .mancha-verde {
+    display: block;
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    right: 150px; }
+  .container-presentacion-img .cohete {
+    width: 500px;
+    position: relative; }
+  .container-img-ppl img {
+    width: 420px;
+    height: 420px; } }

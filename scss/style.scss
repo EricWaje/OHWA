@@ -8,6 +8,7 @@ html{
 
 body{
     font-family: 'Quicksand', sans-serif;
+    
 }
 
 /* -------------------BARRA NAV--------------- */
@@ -48,13 +49,13 @@ header nav a img{
         h1{
             margin-bottom: 1.4rem;
             font-family: 'bebas neue';
-            font-weight:600;
+            font-weight:800;
             letter-spacing: 2px;
             margin-right: 10px;
         }
         span{
             color: $colorRosa;
-            font-weight: 600;
+            font-weight: 800;
             letter-spacing: 2px;
         }
         h4{
@@ -63,6 +64,7 @@ header nav a img{
             font-weight:400;
             font-size: 1.6rem;
             margin-right: 20px;
+            color:  rgb(82, 82, 82);
         }
         .boton-home{
             margin-bottom: 1.4rem;
@@ -113,21 +115,53 @@ header nav a img{
     background-color: $colorGrisClaro;
 }
 
-.container-principal{
-    position: relative;
+.container-img-ppl{
     img{
-        width: 200px;
-        height: 200px;
-        position: absolute;
-        top: 220px;
-        left: 250px;
+        width: 380px;
+        height: 380px;
+    }
+}
 
-
+.container-principal{
+    .p-principal{
+        font-family: 'bebas neue';
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 28px;
+        line-height: 37px;
+        letter-spacing: 2px;
     }
     p{
         font-weight: 600;
-        font-size: 1.2rem;
-        line-height: 28px;
+        font-size: 1.3rem;
+        color: rgb(82, 82, 82);
+    }
+    #md{
+        color: $colorNegro;
+    }
+    #pno{
+        color: $colorVerde;
+    }
+    .btn-principal{
+            border-radius: 50px;
+            color: $colorRosa;
+            background-color: $colorGrisClaro;
+            border: 1px solid $colorRosa;
+            transition: all 0.2s ease;
+            font-size: 1.1rem;
+            font-weight: 600;
+            -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+            -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+            box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+            &:hover{
+                color: $colorBlanco;
+                background-color: $colorRosa;
+                border: 1px solid $colorRosa;
+                transition: all 0.2s ease;
+                -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+                -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+                box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
+            }
     }
 }
 /* -------------------SERVICIOS--------------- */
@@ -135,13 +169,20 @@ header nav a img{
     margin-bottom: 10rem;
 }
 
-.container-servicios h1{
+.container-servicios {
+    h3{
     font-family: 'bebas neue';
     font-weight: 600;
     letter-spacing: 3px;
     font-size: 3.5rem;
     color: $colorVerde;
     text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
+    }
+    p{
+        width: 600px;
+        margin: 0 auto;
+    }
+
 }
 .container-servicios h4{
     width: 600px;
@@ -152,116 +193,88 @@ header nav a img{
     
 }
 
-/* ---------PLACAS SERVICIOS------- */
 
-.container-servicios-card{
-    margin: 0 auto;
+.container-detalles{
+    border: none;
     background-color: $colorVerde;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
+    border-radius: 10px;
     transition: all 0.2s ease;
-        &:hover{
-            -webkit-box-shadow: 25px 23px 0px -6px $colorRosa;
-            -moz-box-shadow: 25px 23px 0px -6px $colorRosa;
-            box-shadow: 25px 23px 0px -6px $colorRosa;
-            transition: all 0.2s ease;
-        }
-        h3{
-            font-family: 'bebas neue';
-            font-weight: 600;
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-            color: $colorBlanco;
-            text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
-
-        }
-        i{
-            font-size: 3rem;
-            color: $colorRosa;
-        }
-        p{
-            font-weight: 500;
-            line-height: 25px;
-        }
-        .boton-placas{
-            color: $colorRosa;
-            font-size: 1.1rem;
-            font-weight: 600;
-            background-color: transparent;
-            border: 2px solid $colorRosa;
-            border-radius: 50px;
-            transition: all 0.2s ease;
-                &:hover{
-                    color: $colorBlanco;
-                    background-color: $colorRosa;
-                    border: 2px solid $colorBlanco;
-                    transition: all 0.2s ease;
-                }
-        }
+    &:hover{
+        -webkit-box-shadow: 10px 13px 0px 0px rgb(248, 89, 89);
+        -moz-box-shadow: 10px 13px 0px 0px rgb(248, 89, 89);
+        box-shadow: 10px 13px 0px 0px rgb(248, 89, 89);
+        transition: all 0.2s ease;
+    }
+}  
+    
+.container-detalles{
+    i{
+        font-size: 2.5rem;
+        color: $colorRosa;
+    }
+    
+   
+    h2{
+        font-family: 'bebas neue';
+        font-weight: 600;
+        font-size: 1.7rem;
+        color:  $colorBlanco;
+        letter-spacing: 1px;
+        text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
+    }
+    .btn-plac{
+        color: $colorRosa;
+        background-color: transparent;
+        border: 1px solid $colorRosa;
+        border-radius: 25px;
+        transition: all 0.2s ease;
+            &:hover{
+                 color: $colorBlanco;
+                background-color: $colorRosa;
+                transition: all 0.2s ease;
+            }
+    }
 }
 
+/* ---------STAFF------- */
 
-
-/* ---------FIN PLACAS SERVICIOS------- */
-
-
-
-.container-marketing{
-    margin-top: 6rem;
+#staff{
     background-color: $colorGrisClaro;
-    border-radius: 10px;
     h3{
         font-family: 'bebas neue';
         font-weight: 600;
-        font-size: 2.5rem;
-        letter-spacing: 2px;
-        color: $colorRosa;
+        letter-spacing: 3px;
+        font-size: 3.5rem;
+        color: $colorVerde;
         text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
-
-    }
-    .mkt-img{
-        width: 400px;
     }
 }
 
-
-.container-desarrollo{
-    margin-top: 6rem;
-    h3{
-        font-family: 'bebas neue';
-        font-weight: 600;
-        font-size: 2.5rem;
-        letter-spacing: 2px;
-        color: $colorRosa;
-        text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
-
-    }
-    .dw-img{
-        width: 600px;
-    }
-}
-
-.container-disenio{
-    margin-top: 6rem;
-    background-color: $colorGrisClaro;
+.card-staff{
+    border: none;
     border-radius: 10px;
-    h3{
-        font-family: 'bebas neue';
-        font-weight: 600;
-        font-size: 2.5rem;
-        letter-spacing: 2px;
-        color: $colorRosa;
-        text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735);
-
+    width: 300px;
+    margin: 0 auto;
+    transition: all 0.2s ease;
+    -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+    -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
+    &:hover{
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
+        transition: all 0.2s ease;
     }
-    .dis-img{
-        width: 500px;
+    a i{
+        font-size: 2.5rem;
     }
 }
 
 /* ---------CONTACTO------- */
+#contacto{
+    /* background-color: $colorGrisClaro; */
+}
+
 
 #contacto h1{
     font-family: 'bebas neue';
@@ -291,7 +304,7 @@ header nav a img{
 .formulario .boton{
     border-radius: 50px;
     color: $colorRosa;
-    background-color: $colorBlanco;
+    background-color: transparent;
     border: 1px solid $colorRosa;
     transition: all 0.2s ease;
     font-size: 1.1rem;
@@ -431,53 +444,158 @@ header nav a img{
 
 
 
+/* ---------MEDIA QUERIES------- */
 
+@media only screen and (min-width: 300px){
+    .container-servicios{
+        p{
+            width: 320px;
+        }
+    }
+    .container-presentacion-img .mancha-verde{
+        display: block;
+        width: 150px;
+        position: absolute;
+        top: 40px;
+        right: 110px;
+        
+    
+    }
+    
+    .container-presentacion-img .cohete{
+        width: 350px;
+        position: relative;
+        
+    
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#p-1{
-    font-family: 'bebas neue';
-    font-weight: 800;
-    font-size: 2rem;
-}
-#p-2{
-    font-family: 'bebas neue';
-    font-weight: 600;
-    font-size: 2rem;
-}
-
-#p-4{
-    font-family: 'bebas neue';
-    font-weight: 400;
-    font-size: 2rem;
-}
-#p-5{
-    font-family: 'bebas neue';
-    font-weight: 200;
-    font-size: 2rem;
-}
-#p-6{
-    font-family: 'bebas neue';
-    font-weight: 100;
-    font-size: 2rem;
+    .container-img-ppl{
+        img{
+            width: 280px;
+            height: 280px;
+        }
+    }
 }
 
+@media only screen and (min-width: 432px){
+    .container-servicios{
+        p{
+            width: 390px;
+        }
+    }
+    .container-presentacion-img .mancha-verde{
+        display: block;
+        width: 170px;
+        position: absolute;
+        top: 60px;
+        right: 110px;
+        
+    
+    }
+    
+    .container-presentacion-img .cohete{
+        width: 420px;
+        position: relative;
+        
+    
+    }
 
+    .container-img-ppl{
+        img{
+            width: 320px;
+            height: 320px;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .container-servicios{
+        p{
+            width: 500px;
+        }
+    }
+    .container-presentacion-img .mancha-verde{
+        width: 250px;
+        position: absolute;
+        top: 60px;
+        right: 150px;
+        
+    
+    }
+    
+    .container-presentacion-img .cohete{
+        width: 480px;
+        position: relative;
+        
+    
+    }
+
+    .container-img-ppl{
+        img{
+            width: 370px;
+            height: 370px;
+        }
+    }
+}
+
+@media only screen and (min-width: 767px){
+    .container-servicios{
+        p{
+            width: 600px;
+        }
+    }
+    .container-presentacion-img .mancha-verde{
+        display: block;
+        width: 250px;
+        position: absolute;
+        top: 60px;
+        right: 300px;
+        
+    
+    }
+    
+    .container-presentacion-img .cohete{
+        width: 500px;
+        position: relative;
+        
+    
+    }
+
+    .container-img-ppl{
+        img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .container-servicios{
+        p{
+            width: 600px;
+        }
+    }
+    .container-presentacion-img .mancha-verde{
+        display: block;
+        width: 250px;
+        position: absolute;
+        top: 60px;
+        right: 150px;
+        
+    
+    }
+    
+    .container-presentacion-img .cohete{
+        width: 500px;
+        position: relative;
+        
+    
+    }
+
+    .container-img-ppl{
+        img{
+            width: 420px;
+            height: 420px;
+        }
+    }
+}
