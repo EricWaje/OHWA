@@ -37,6 +37,11 @@ header nav a img{
         }
 }
 
+.navbar-light .btn-menu{
+    border-radius: 10px;
+    border: 2px solid $colorRosa;
+}
+
 /* ----------PRESENTACION---------- */
 #presentacion{
     margin-top: 2rem;
@@ -291,9 +296,6 @@ header nav a img{
 }
 
 /* ---------CONTACTO------- */
-#contacto{
-    /* background-color: $colorGrisClaro; */
-}
 
 
 #contacto h3{
@@ -498,11 +500,6 @@ header nav a img{
         }
     }
 
-    .container-detalles{
-/*     width: 250px;
-    height: 200px;
-    margin: 0 auto; */
-    }
 }
 
 @media only screen and (min-width: 432px){

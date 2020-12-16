@@ -55,6 +55,10 @@ header nav a img {
     color: #BEE42A;
     transition: all 0.2s ease; }
 
+.navbar-light .btn-menu {
+  border-radius: 10px;
+  border: 2px solid #f85959; }
+
 /* ----------PRESENTACION---------- */
 #presentacion {
   margin-top: 2rem;
@@ -258,9 +262,6 @@ header nav a img {
     font-size: 2.5rem; }
 
 /* ---------CONTACTO------- */
-#contacto {
-  /* background-color: $colorGrisClaro; */ }
-
 #contacto h3 {
   font-family: 'bebas neue';
   font-weight: 600;
@@ -393,11 +394,7 @@ header nav a img {
     position: relative; }
   .container-img-ppl img {
     width: 280px;
-    height: 280px; }
-  .container-detalles {
-    /*     width: 250px;
-    height: 200px;
-    margin: 0 auto; */ } }
+    height: 280px; } }
 
 @media only screen and (min-width: 432px) {
   .container-servicios p {
