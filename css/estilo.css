@@ -56,8 +56,8 @@ header nav a img {
     transition: all 0.2s ease; }
 
 .navbar-light .btn-menu {
-  border-radius: 10px;
-  border: 2px solid #f85959; }
+  border-radius: 0px;
+  border: 1px solid #f85959; }
 
 /* ----------PRESENTACION---------- */
 #presentacion {
