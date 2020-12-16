@@ -68,6 +68,11 @@ header nav a img {
     font-weight: 800;
     letter-spacing: 2px;
     margin-right: 10px; }
+  .container-presentacion #ohwa {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400; }
   .container-presentacion span {
     color: #f85959;
     font-weight: 800;
@@ -119,15 +124,16 @@ header nav a img {
   width: 380px;
   height: 380px; }
 
-.container-principal .p-principal {
+.container-principal .p-principal h2 {
   font-family: 'bebas neue';
   font-weight: 600;
   font-size: 2.5rem;
   line-height: 28px;
   line-height: 37px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  color: #525252; }
 
-.container-principal p {
+.container-principal .p-principal p {
   font-weight: 600;
   font-size: 1.3rem;
   color: #525252; }
@@ -167,7 +173,7 @@ header nav a img {
   font-weight: 600;
   letter-spacing: 3px;
   font-size: 3.5rem;
-  color: #BEE42A;
+  color: #f85959;
   text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
 
 .container-servicios p {
@@ -185,7 +191,10 @@ header nav a img {
   border: none;
   background-color: #BEE42A;
   border-radius: 10px;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  /*     width: 250px;
+    height: 200px;
+    margin: 0 auto; */ }
   .container-detalles:hover {
     -webkit-box-shadow: 10px 13px 0px 0px #f85959;
     -moz-box-shadow: 10px 13px 0px 0px #f85959;
@@ -215,6 +224,11 @@ header nav a img {
     background-color: #f85959;
     transition: all 0.2s ease; }
 
+.imagen-modal {
+  background-image: url(/assets/img/facebook.svg);
+  background-position: center;
+  background-repeat: no-repeat; }
+
 /* ---------STAFF------- */
 #staff {
   background-color: #e4e4e453; }
@@ -223,7 +237,7 @@ header nav a img {
     font-weight: 600;
     letter-spacing: 3px;
     font-size: 3.5rem;
-    color: #BEE42A;
+    color: #f85959;
     text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); }
 
 .card-staff {
@@ -247,12 +261,12 @@ header nav a img {
 #contacto {
   /* background-color: $colorGrisClaro; */ }
 
-#contacto h1 {
+#contacto h3 {
   font-family: 'bebas neue';
   font-weight: 600;
   letter-spacing: 3px;
   font-size: 3.5rem;
-  color: #BEE42A;
+  color: #f85959;
   text-shadow: 0px 3px 2px #525252bb; }
 
 .container-formulario {
@@ -294,6 +308,8 @@ header nav a img {
   .container-footer .container-redes {
     height: 30px; }
     .container-footer .container-redes i {
+      width: 30px;
+      height: 20px;
       font-size: 1.5rem;
       color: #ffffff;
       transition: all 0.2s ease; }
@@ -377,7 +393,11 @@ header nav a img {
     position: relative; }
   .container-img-ppl img {
     width: 280px;
-    height: 280px; } }
+    height: 280px; }
+  .container-detalles {
+    /*     width: 250px;
+    height: 200px;
+    margin: 0 auto; */ } }
 
 @media only screen and (min-width: 432px) {
   .container-servicios p {

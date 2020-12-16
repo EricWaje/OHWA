@@ -11,18 +11,3 @@ window.onscroll = function () {
     nav.style.background = 'transparent';
   }
 };
-
-/* const cambioColor = () => {
-  const btnPlacas = document.getElementsByClassName('boton-placas');
-  btnPlacas.style.color = 'blue';
-};
-
-const start = () => {
-  document
-    .getElementsByClassName('boton-placas')
-    .addEventListener('click', () => cambioColor());
-  return btnPlacas;
-};
-
-window.onload = start;
- */
