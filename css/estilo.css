@@ -41,7 +41,7 @@ header {
   z-index: 100; }
 
 header nav a img {
-  width: 210px; }
+  width: 150px; }
 
 #navbarNav .enlace-nav {
   font-family: 'bebas Neue';
@@ -63,7 +63,8 @@ header nav a img {
 #presentacion {
   margin-top: 2rem;
   margin-bottom: 10rem;
-  position: relative; }
+  position: relative;
+  /* height: 58vh; */ }
   #presentacion .wave {
     position: absolute;
     width: 100%;
@@ -494,4 +495,4 @@ header nav a img {
   #presentacion .wave {
     position: absolute;
     width: 100%;
-    bottom: -38%; } }
+    bottom: -46%; } }

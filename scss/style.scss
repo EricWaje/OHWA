@@ -20,7 +20,7 @@ header{
 }
 
 header nav a img{
-    width: 210px;
+    width: 150px;
 }
 
 #navbarNav .enlace-nav{
@@ -47,6 +47,7 @@ header nav a img{
     margin-top: 2rem;
     margin-bottom: 10rem;
     position: relative;
+    /* height: 58vh; */
 
     .wave{
         position: absolute;
@@ -683,7 +684,7 @@ header nav a img{
         .wave{
             position: absolute;
             width: 100%;
-            bottom: -38%;
+            bottom: -46%;
         }
     
     }
