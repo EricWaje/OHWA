@@ -305,6 +305,22 @@ header nav a img{
     a i{
         font-size: 2.5rem;
     }
+
+    h4{
+        font-family: 'bebas neue';
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+        color: $colorVerde;
+        margin-bottom: 5px;
+        /* text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); */
+    }
+    h5{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 1.1rem;
+        color: rgb(82, 82, 82);
+    }
 }
 
 /* ---------CONTACTO------- */
