@@ -71,7 +71,8 @@ header nav a img {
     bottom: -38%; }
 
 .container-presentacion {
-  margin-top: 5rem; }
+  margin-top: 3rem;
+  margin-bottom: 2rem; }
   .container-presentacion h1 {
     margin-bottom: 1.4rem;
     font-family: 'bebas neue';
