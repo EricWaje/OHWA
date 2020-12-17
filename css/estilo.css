@@ -402,7 +402,11 @@ header nav a img {
     position: relative; }
   .container-img-ppl img {
     width: 280px;
-    height: 280px; } }
+    height: 280px; }
+  #presentacion .wave {
+    position: absolute;
+    width: 100%;
+    bottom: -26%; } }
 
 @media only screen and (min-width: 432px) {
   .container-servicios p {
@@ -433,7 +437,11 @@ header nav a img {
     position: relative; }
   .container-img-ppl img {
     width: 370px;
-    height: 370px; } }
+    height: 370px; }
+  #presentacion .wave {
+    position: absolute;
+    width: 100%;
+    bottom: -24%; } }
 
 @media only screen and (min-width: 767px) {
   .container-servicios p {
@@ -449,7 +457,11 @@ header nav a img {
     position: relative; }
   .container-img-ppl img {
     width: 400px;
-    height: 400px; } }
+    height: 400px; }
+  #presentacion .wave {
+    position: absolute;
+    width: 100%;
+    bottom: -26%; } }
 
 @media only screen and (min-width: 992px) {
   .container-servicios p {
@@ -465,4 +477,8 @@ header nav a img {
     position: relative; }
   .container-img-ppl img {
     width: 420px;
-    height: 420px; } }
+    height: 420px; }
+  #presentacion .wave {
+    position: absolute;
+    width: 100%;
+    bottom: -38%; } }
