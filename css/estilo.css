@@ -129,7 +129,8 @@ header nav a img {
 /* -------------------HOME--------------- */
 #principal {
   margin-top: 6rem;
-  background-color: #e4e4e453; }
+  background-color: #e4e4e453;
+  height: 90vh; }
 
 .container-img-ppl img {
   width: 380px;
