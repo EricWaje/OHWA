@@ -71,6 +71,70 @@ const limpiarError = () => {
   errorForm.innerHTML = '';
 };
 
+const pintarLinkNav = () => {
+  //HOME
+  const home = document.getElementById('home');
+  let presentacion = document.getElementById('presentacion');
+  let principal = document.getElementById('principal');
+  let homePositionTop = presentacion.getBoundingClientRect().top;
+  let homePositionBottom = principal.getBoundingClientRect().bottom;
+  let screenPositionHome = window.innerHeight / 2.7;
+  //MARCAR HOME
+  if (
+    homePositionTop < screenPositionHome &&
+    homePositionBottom > screenPositionHome
+  ) {
+    home.style.color = '#BEE42A';
+  } else {
+    home.style.color = 'black';
+  }
+  //SERVICIOS
+  const servicio = document.getElementById('serv');
+  let servicioo = document.getElementById('servicios');
+  let servicioPositionTop = servicioo.getBoundingClientRect().top;
+  let servicioPositionBottom = servicioo.getBoundingClientRect().bottom;
+  let screenPositionServ = window.innerHeight / 2.7;
+  //MARCAR SERVICIOS
+  if (
+    servicioPositionTop < screenPositionServ &&
+    servicioPositionBottom > screenPositionServ
+  ) {
+    servicio.style.color = '#BEE42A';
+  } else {
+    servicio.style.color = 'black';
+  }
+  //STAFF
+  const staff = document.getElementById('sta');
+  let stafff = document.getElementById('staff');
+  let staffPositionTop = stafff.getBoundingClientRect().top;
+  let staffPositionBottom = stafff.getBoundingClientRect().bottom;
+  let screenPositionStaff = window.innerHeight / 2.7;
+  //MARCAR STAFF
+  if (
+    staffPositionTop < screenPositionStaff &&
+    staffPositionBottom > screenPositionStaff
+  ) {
+    staff.style.color = '#BEE42A';
+  } else {
+    staff.style.color = 'black';
+  }
+  //CONTACTO
+  const contacto = document.getElementById('cont');
+  let contactoo = document.getElementById('contacto');
+  let contactoPositionTop = contactoo.getBoundingClientRect().top;
+  let contactoPositionBottom = contactoo.getBoundingClientRect().bottom;
+  let screenPositionContacto = window.innerHeight / 2.7;
+  //MARCAR CONTACTO
+  if (
+    contactoPositionTop < screenPositionContacto &&
+    contactoPositionBottom > screenPositionContacto
+  ) {
+    contacto.style.color = '#BEE42A';
+  } else {
+    contacto.style.color = 'black';
+  }
+};
+
 const start = () => {
   btnEnviar.disabled = true;
   btnEnviar.style.cursor = 'not-allowed';
@@ -79,6 +143,8 @@ const start = () => {
   apellidoForm.addEventListener('blur', validarForm);
   emailForm.addEventListener('blur', validarForm);
   comentariosForm.addEventListener('blur', validarForm);
+
+  window.addEventListener('scroll', pintarLinkNav);
 };
 
 window.onload = start;
