@@ -71,6 +71,8 @@ const limpiarError = () => {
   errorForm.innerHTML = '';
 };
 
+//PINTAR LOS LINKS DE LA BARRA DE NAV
+
 const pintarLinkNav = () => {
   //HOME
   const home = document.getElementById('home');
@@ -79,6 +81,7 @@ const pintarLinkNav = () => {
   let homePositionTop = presentacion.getBoundingClientRect().top;
   let homePositionBottom = principal.getBoundingClientRect().bottom;
   let screenPositionHome = window.innerHeight / 2.7;
+
   //MARCAR HOME
   if (
     homePositionTop < screenPositionHome &&
@@ -94,6 +97,7 @@ const pintarLinkNav = () => {
   let servicioPositionTop = servicioo.getBoundingClientRect().top;
   let servicioPositionBottom = servicioo.getBoundingClientRect().bottom;
   let screenPositionServ = window.innerHeight / 2.7;
+
   //MARCAR SERVICIOS
   if (
     servicioPositionTop < screenPositionServ &&
