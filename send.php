@@ -64,6 +64,6 @@ mail($enviar_a, $asunto, $mensaje_app, $header);
 //VAMOS A LA PAGINA QUE QUEREMOS DESPUES DE FINALIZAR DE ENVIAR EL MAIL
 // EJEMPLO UNA WEBPAGE QUE NOS DICE SU CONSULTA SE A ENVIADO CON EXITO
 
-header('location: http://www.google.com');
+header('location: https://google.com');
 
 ?>

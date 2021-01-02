@@ -13,7 +13,6 @@ window.onscroll = function () {
 };
 
 //---------------VALIDAR FORMULARIO--------------
-
 const btnEnviar = document.getElementById('enviar-btn');
 const nombreForm = document.getElementById('nombre');
 const apellidoForm = document.getElementById('apellido');
