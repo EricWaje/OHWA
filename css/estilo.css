@@ -41,7 +41,7 @@ header {
   z-index: 100; }
 
 header nav a img {
-  width: 150px; }
+  width: 130px; }
 
 #navbarNav .enlace-nav {
   font-family: 'bebas Neue';
@@ -259,6 +259,7 @@ header nav a img {
   border: none;
   border-radius: 10px;
   width: 300px;
+  height: 670px;
   margin: 0 auto;
   transition: all 0.2s ease;
   -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.536);
@@ -268,6 +269,7 @@ header nav a img {
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
     -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571);
+    width: 310px;
     transition: all 0.2s ease; }
   .card-staff a i {
     font-size: 2.5rem; }
@@ -276,7 +278,7 @@ header nav a img {
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 1.5rem;
-    color: #BEE42A;
+    color: #a7c725;
     margin-bottom: 5px;
     /* text-shadow: 0px 3px 2px rgba(82, 82, 82, 0.735); */ }
   .card-staff h5 {
@@ -286,7 +288,9 @@ header nav a img {
     font-size: 1.1rem;
     color: #525252; }
   .card-staff p {
-    height: 160px; }
+    height: 160px;
+    width: 270px;
+    padding: 0px 2px; }
 
 /* ---------CONTACTO------- */
 #contacto h3 {
