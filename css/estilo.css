@@ -337,6 +337,28 @@ header nav a img {
     -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536);
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.536); }
 
+form .danger {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: red;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  width: 240px;
+  padding: 7px 2px; }
+
+form .succes {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: green;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  width: 240px;
+  padding: 7px 2px; }
+
 /* ----------FOOTER---------- */
 .container-footer {
   background-color: #494949; }
